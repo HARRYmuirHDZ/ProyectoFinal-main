@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", ev => {
 
 function MostarDatosConfiguraciones() {
     //truco  !fetch
-    let url ;
+    let url ="/js/Configuraciones.json"
     fetch(url)
     
         .then(response => response.json())
