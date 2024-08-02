@@ -1,5 +1,16 @@
 console.log("Funciona")
 
+
+
+function MostrarHTML() {
+    let navbar = document.getElementById("NavBar").innerHTML = CrearNavBar
+    let footer = document.getElementById("Footer").innerHTML = CrearFooter
+    let Noticias = document.getElementById("Noticias").innerHTML = CrearTarjetaNoticias
+}
+
+
+
+
 function crearNavbar() {
     let html = `
           <a class="navbar-brand" href="#">
