@@ -7,7 +7,8 @@ export const ObtenerDatosDeConfiguracion = async () => {
         if (response.status == "200") {
         const data = await response.json();
 
-            console.log(data);
+            console.table(data);
+            return data
 
         }else{
             console.log("Error al consultar la API"+ response.status)
@@ -18,7 +19,7 @@ export const ObtenerDatosDeConfiguracion = async () => {
 
     } catch (error) {
 
-        
+
         console.log("Error en la red "+ error);
 
     }
