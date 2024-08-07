@@ -18,6 +18,7 @@ export const ObtenerDatosDeConfiguracion = async () => {
 
     } catch (error) {
 
+        
         console.log("Error en la red "+ error);
 
     }
