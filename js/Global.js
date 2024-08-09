@@ -1,10 +1,10 @@
-import { ObtenerDatosDeConfiguracion } from "/js/servicios_configuracion.js"
+import { ObtenerDatosConfiguracion } from "/js/servicios_configuracion.js"
 
 
 
 
 export async function MostrarHTML() {
-    const Datos = await ObtenerDatosDeConfiguracion ();
+    const Datos = await ObtenerDatosConfiguracion ();
     //
 
 
